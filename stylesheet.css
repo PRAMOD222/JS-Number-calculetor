@@ -19,9 +19,23 @@
 .input_cont{
     display: flex;
 }
+
 @media only screen and (min-width: 450px) {
     #mobile{
-      font-size: small;
       display: flex;
+
+    }
+}
+@media only screen and (max-width: 450px) {
+    #mobile{
+      font-size: small;
+      background-color: rgb(203, 247, 247);
+      
+    }
+    html{
+        background-color: rgb(203, 247, 247);
+    }
+    .colour-bg{
+        background-color: rgb(198, 253, 253);
     }
 }
