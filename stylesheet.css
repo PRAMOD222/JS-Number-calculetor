@@ -1,0 +1,21 @@
+.button{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.button_itom{
+    margin: 1px 5px;
+
+}
+.input_box{
+    width: 10rem;
+}
+#floatingInput{
+    width: 23rem;
+    justify-content: center;
+    justify-items: center;
+
+}
+.input_cont{
+    display: flex;
+}
